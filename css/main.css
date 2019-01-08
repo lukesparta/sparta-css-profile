@@ -1,0 +1,165 @@
+html{
+  font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+body{
+  margin: 0;
+  font-size: 1em;
+  color: #1B1725;
+  text-align: justify;
+}
+
+ul{
+  margin: 0;
+  padding-left: 15px;
+}
+
+h2{
+  text-align: center;
+  border-bottom: #086788 solid 3px;
+}
+
+header{
+  background: #086788;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #DCDCDC;
+  font-size: 1.2em;
+}
+
+.img-name{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-name img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-name span{
+  font-size: 1.8em;
+}
+
+.ed-details{
+  font-weight: bold;
+}
+
+.list-container{
+  padding: 10px;
+}
+
+.education, .experience, .skills{
+  padding: 0 15px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+.ed-details {
+  font-size: 0.85em;
+}
+
+.summary{
+  padding: 5px 12px;
+  text-align: justify;
+}
+
+.summary p{
+  margin: 30px;
+}
+
+main{
+  padding-bottom: 10px;
+}
+
+.ed-year{
+  color: #F24236;
+  font-weight: bold;
+}
+
+footer{
+  background: white;
+  text-align: center;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline;
+  color: #086788;
+  font-size: 3em;
+  padding: 15px; 
+}
+
+a{
+  color: #086788;
+}
+
+footer ul{
+  margin-top: 20px; 
+  padding: 0;
+}
+
+footer span{
+  color: #1B1725;
+  font-size: 2em;
+}
+
+.skills .fa-chevron-circle-down{
+  display: none;
+}
+
+@media only screen and (min-width: 415px){
+  h2{
+    font-size: 1.2em;
+  }
+
+  .img-name span{
+    font-size: 1.4em;
+    margin-top: 10px;
+  }
+
+  .list-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexbox-two{
+    display: flex;
+  }
+
+  .education, .experience{
+    width: 50%;
+    text-align: left;
+  }
+
+  ul{
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 950px){
+  .list-left{
+    margin-right: 30px;
+  }
+
+  .list-right{
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1040px){
+  header{
+    flex-direction: row;
+  }
+
+  .summary{
+    padding: 10px 20px 10px 60px;
+  }
+
+  main{
+    max-width: 970px;
+    margin: 0 auto;
+  }
+}
